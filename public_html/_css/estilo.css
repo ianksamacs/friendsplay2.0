@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/04/2015, 16:10:01
+    Author     : Kaio Ribeiro
+*/
+
+@chaset "UTF-8";
+
+body{
+    background: url("../_imagens/fundo_cinza.png");
+}
+
+div#interface{
+    width: 800px;
+    background-color: white;
+    margin:  0px 200px 0px auto;
+    box-shadow: 0px 0px 10px rgba(4,2,2,.6); /*define as caracteristicas da sombra da borda*/
+    padding-bottom: 10px;
+    padding: 10px;
+    
+}
+
+
+div#interface header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    color: black;
+    padding-bottom: 30px;
+}
+
+header#cabecalho iframe#calendario{
+    position: absolute;
+    top: 240px;
+    left: 110px;
+    width: 220px;
+    height: 250px;
+}
+
+header#cabecalho h1{
+    padding-bottom: 30px;
+}
+
+header#cabecalho-artigo h1{
+    font-size: 10pt;
+    color: #606060;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    left: 88px;
+    text-align: left;
+    font-size: 10pt;
+}
+
+nav#menu li{
+        background-color: blue;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color: 1s;
+}
+
+nav#menu li:hover {
+	background-color: cornflowerblue;
+}
+
+nav#menu a{
+    color: white;
+    text-decoration: none;
+}
+
+section#principal {
+	display: block;
+	border-top: 1px dashed #606060;
+	padding-top: -10px;
+        font-family: sans-serif;
+         
+}
+
+article#noticia-pricipal h3{
+    font-size: 12pt;
+    font: sans-serif;
+}
+
+article#noticia-pricipal header#cabecalho{
+    
+}
+
+/*define as caracteristicas da sessão de baixo do site ou roda pé.*/
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+	
+}
+
+/*Centraliza o paragrafo do roda pé.*/
+footer#rodape p{
+	text-align: center;
+}
